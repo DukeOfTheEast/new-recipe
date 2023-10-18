@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Recipe Web App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="food-item"
+        onclick="showModal('Pasta', 'Ingredients: Pasta, Water, Salt', 'Cooking Instructions: Boil pasta in salted water until al dente.')"
+      >
+        Pasta
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Salad', 'Ingredients: Lettuce, Tomatoes, Cucumber, Dressing', 'Mix all vegetables, add dressing, toss and serve.')"
+      >
+        Salad
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Burger', 'Ingredients: Beef patty, Buns, Lettuce, Tomato, Cheese', 'Cooking Instructions: Grill the patty, assemble ingredients in the bun and serve.')"
+      >
+        Burger
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Pizza', 'Ingredients: Pizza dough, Tomato sauce, Cheese, Pepperoni, Vegetables', 'Cooking Instructions: Spread sauce on dough, add toppings, bake until crust is golden brown.')"
+      >
+        Pizza
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Sushi', 'Ingredients: Rice, Fish, Seaweed, Vegetables, Soy sauce', 'Cooking Instructions: Spread rice on seaweed, add fillings, roll tightly, slice and serve with soy sauce.')"
+      >
+        Sushi
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Pancakes', 'Ingredients: Flour, Milk, Eggs, Baking powder, Syrup', 'Cooking Instructions: Mix ingredients, pour onto hot griddle, flip when bubbles form, serve with syrup.')"
+      >
+        Pancakes
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Omelette', 'Ingredients: Eggs, Cheese, Vegetables, Salt, Pepper', 'Cooking Instructions: Beat eggs, pour into hot pan, add fillings, cook until set, fold and serve.')"
+      >
+        Omelette
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Lasagna', 'Ingredients: Lasagna noodles, Meat sauce, Cheese, Bechamel sauce', 'Cooking Instructions: Layer noodles, meat sauce, cheese, and bechamel sauce, bake until bubbly and golden.')"
+      >
+        Lasagna
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Tacos', 'Ingredients: Tortillas, Ground beef, Lettuce, Cheese, Salsa', 'Cooking Instructions: Cook beef, assemble in tortillas with toppings, fold and serve with salsa.')"
+      >
+        Tacos
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Curry', 'Ingredients: Chicken, Curry paste, Coconut milk, Vegetables, Rice', 'Cooking Instructions: Cook chicken, add curry paste and coconut milk, simmer with vegetables, serve with rice.')"
+      >
+        Curry
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Steak', 'Ingredients: Steak, Salt, Pepper, Butter, Garlic', 'Cooking Instructions: Season steak, sear in hot pan with butter and garlic, cook to desired doneness.')"
+      >
+        Steak
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Ramen', 'Ingredients: Ramen noodles, Broth, Pork, Egg, Green onions', 'Cooking Instructions: Cook noodles, simmer pork in broth, assemble with toppings, serve hot.')"
+      >
+        Ramen
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Fried Chicken', 'Ingredients: Chicken pieces, Flour, Eggs, Spices, Oil', 'Cooking Instructions: Coat chicken in flour and spices, dip in beaten eggs, fry until golden brown.')"
+      >
+        Fried Chicken
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Shrimp Scampi', 'Ingredients: Shrimp, Garlic, Butter, Lemon, Parsley', 'Cooking Instructions: Sauté shrimp in garlic and butter, add lemon juice, serve over pasta or rice.')"
+      >
+        Shrimp Scampi
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Chicken Alfredo', 'Ingredients: Chicken, Fettuccine pasta, Cream, Parmesan cheese', 'Cooking Instructions: Cook chicken, boil pasta, mix with cream and cheese, serve hot.')"
+      >
+        Chicken Alfredo
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Hamburger Steak', 'Ingredients: Ground beef, Onions, Worcestershire sauce, Gravy', 'Cooking Instructions: Shape beef into patties, cook with onions, add Worcestershire sauce and gravy.')"
+      >
+        Hamburger Steak
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Gyudon', 'Ingredients: Beef, Onions, Soy sauce, Mirin, Rice', 'Cooking Instructions: Sauté beef and onions, add soy sauce and mirin, serve over rice.')"
+      >
+        Gyudon
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Miso Soup', 'Ingredients: Miso paste, Tofu, Seaweed, Green onions', 'Cooking Instructions: Dissolve miso in hot water, add tofu, seaweed, and green onions.')"
+      >
+        Miso Soup
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Cesar Salad', 'Ingredients: Romaine lettuce, Croutons, Parmesan cheese, Caesar dressing', 'Cooking Instructions: Toss lettuce with croutons, cheese, and dressing, serve chilled.')"
+      >
+        Caesar Salad
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Samosa', 'Ingredients: Potatoes, Peas, Spices, Pastry dough', 'Cooking Instructions: Cook potatoes and peas, mix with spices, fill pastry and fry until golden brown.')"
+      >
+        Samosa
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Pho', 'Ingredients: Rice noodles, Beef or Chicken, Herbs, Bean sprouts, Lime', 'Cooking Instructions: Cook noodles, add meat, herbs, and bean sprouts, serve with lime.')"
+      >
+        Pho
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Pad Thai', 'Ingredients: Rice noodles, Shrimp, Tofu, Peanuts, Bean sprouts', 'Cooking Instructions: Stir-fry noodles, shrimp, tofu, peanuts, and bean sprouts with sauce.')"
+      >
+        Pad Thai
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Fish and Chips', 'Ingredients: Fish fillets, Potatoes, Flour, Beer, Tartar sauce', 'Cooking Instructions: Coat fish in beer batter, fry with potatoes, serve with tartar sauce.')"
+      >
+        Fish and Chips
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Clam Chowder', 'Ingredients: Clams, Potatoes, Onions, Bacon, Cream', 'Cooking Instructions: Sauté bacon, onions, and potatoes, add clams and cream, simmer until thick.')"
+      >
+        Clam Chowder
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Goulash', 'Ingredients: Beef, Onions, Paprika, Tomatoes, Bell peppers', 'Cooking Instructions: Sauté beef, onions, and spices, add tomatoes and peppers, simmer until tender.')"
+      >
+        Goulash
+      </div>
+      <div
+        class="food-item"
+        onclick="showModal('Falafel', 'Ingredients: Chickpeas, Herbs, Spices, Pita bread, Tahini sauce', 'Cooking Instructions: Blend chickpeas, herbs, and spices, form into balls, fry until golden, serve in pita with sauce.')"
+      >
+        Falafel
+      </div>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="food-name"></h2>
+        <p id="ingredients"></p>
+        <p id="instructions"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
